@@ -10,7 +10,8 @@ ui <- fluidPage(
       actionButton("scrape", "Get posts")
     ),
     mainPanel(
-      uiOutput("html_output")
+      uiOutput("html_output"),
+      p("You are recieving this email because you have subscribed to the digest. To unsubscribe, simply respond to this email, asking to unsubscribe.")
     )
   )
 )

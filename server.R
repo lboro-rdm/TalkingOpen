@@ -47,7 +47,7 @@ server <- function(input, output) {
       # Format HTML with posts arranged by date
       html_content <- paste(
         "<div style='font-family: Arial, sans-serif;'>",
-        glue("<h2>Open Research Blog Digest ({input$start_date}-{input$end_date})</h2>"),
+        glue("<h2>Open Research Blog Digest ({input$start_date} to {input$end_date})</h2>"),
         
         # Create list items for each post sorted by date
         "<ul>",
