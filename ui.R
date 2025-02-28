@@ -11,7 +11,7 @@ ui <- fluidPage(
     ),
     mainPanel(
       uiOutput("html_output"),
-      p("You are recieving this email because you have subscribed to the digest. To unsubscribe, simply respond to this email, asking to unsubscribe.")
+      p("You are receiving this email because you have subscribed to the digest. To unsubscribe, simply respond to this email, asking to unsubscribe.")
     )
   )
 )
