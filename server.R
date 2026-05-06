@@ -49,8 +49,8 @@ parse_rss_feed <- function(start_date, end_date) {
           glue("
           <p style='margin: 0 0 16px 0;'>
             <a href='{post$link}' target='_blank' style='font-size:15px; font-weight:500; color:#8d9c27; text-decoration:none;'>{post$title}</a><br>
-            <span style='font-size:12px; color:#1a1a1a;'>{post$categories}</span>
-            <span style='font-size:12px; color:#aaa; margin-left:10px;'>{format(post$date, '%d %B %Y')}</span>
+            <span style='font-size:12px; color:#1a1a1a;'>&#128193; {post$categories}</span>
+            <span style='font-size:12px; color:#aaa; margin-left:10px;'>&#128197; {format(post$date, '%d %B %Y')}</span>
           </p>
         ")
         }),
