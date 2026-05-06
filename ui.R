@@ -1,6 +1,5 @@
 library(shiny)
 
-# Define UI
 ui <- fluidPage(
   titlePanel("Loughborough RDM Blog Digest Maker"),
   sidebarLayout(
@@ -11,7 +10,9 @@ ui <- fluidPage(
     ),
     mainPanel(
       uiOutput("html_output"),
-      p("You are receiving this email because you have subscribed to the digest. To unsubscribe, simply respond to this email, asking to unsubscribe.")
+      HTML("<br>"),
+      p("You are receiving this email because you have subscribed to the digest. To unsubscribe, simply respond to this email, asking to unsubscribe.",
+        style = "font-size: 11px; font-style: italic;")
     )
   )
 )
