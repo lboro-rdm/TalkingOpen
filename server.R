@@ -59,7 +59,7 @@ parse_rss_feed <- function(start_date, end_date) {
       
       HTML(glue("
       <div style='font-family: Arial, sans-serif; max-width: 680px;'>
-        <h2 style='font-size:18px; font-weight:500; margin-bottom:4px; color:#1a1a1a;'>Open Research Blog Digest {input$start_date} to {input$end_date} </h2>
+        <h2 style='font-size:18px; font-weight:500; margin-bottom:4px; color:#1a1a1a;'>Open Research Blog Digest {input$start_date} to {input$end_date} (Loughborough University)</h2>
         <br>
         {posts}
       </div>
